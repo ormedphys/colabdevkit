@@ -8,7 +8,6 @@ from pathlib import Path
 
 def project_exists(path: str | Path) -> bool:
     """
-    Returns True if a project directory exists.
+    Returns True if the project directory exists.
     """
     return Path(path).exists()
-    
