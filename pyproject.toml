@@ -16,5 +16,5 @@ authors = [
 
 dependencies = []
 
-[tool.setuptools]
-packages = ["colabdevkit"]
+[tool.setuptools.packages.find]
+include = ["colabdevkit*"]
